@@ -1,0 +1,11 @@
+.github
+.vscode
+dist
+node_modules
+docs
+coverage
+deploy
+.env
+.env.example
+.env.local
+.env.stg
