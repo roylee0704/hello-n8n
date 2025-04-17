@@ -1,0 +1,13 @@
+{
+    "mcpServers": {
+      "n8n": {
+        "command": "npx",
+        "args": [
+          "--yes",
+          "@anthropic-ai/supergateway",
+          "--sse",
+          "http://localhost:5678/mcp/6062e937-a1e7-4fb5-83e8-a1068ead2121/sse"
+        ]
+      }
+    }
+  }

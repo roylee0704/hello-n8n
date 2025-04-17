@@ -28,6 +28,7 @@ services:
       DB_POSTGRESDB_SCHEMA: public
       GENERIC_TIMEZONE: "Asia/Bangkok"
       TZ: "Asia/Bangkok"
+      N8N_COMMUNITY_PACKAGES_ALLOW_TOOL_USAGE: "true"
     volumes:
       - n8n_data:/home/node/.n8n
     depends_on:
