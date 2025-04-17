@@ -7,6 +7,10 @@ COMPOSE_FILE = .dev/docker-compose.postgres.yaml
 up:
 	@echo "Starting Docker Compose services..."
 	docker-compose -f $(COMPOSE_FILE) up -d
+	@echo "Waiting for services to initialize..."
+	@sleep 3
+	@echo "N8N is available at:"
+	@echo "http://localhost:5678"
 
 down:
 	@echo "Stopping Docker Compose services..."
